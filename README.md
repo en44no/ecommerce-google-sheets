@@ -4,7 +4,7 @@
 ## ⚙ Technologies
 
 >[![ReactJS](https://img.shields.io/badge/React%20JS-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://es.reactjs.org/)
->[![Tailwind](https://img.shields.io/badge/-Tailwind-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/docs)
+>[![Tailwind](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/docs)
 
 ## 📝 Features
 
