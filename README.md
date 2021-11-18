@@ -15,7 +15,7 @@
 >Clone the project
 >
 >```bash
->  git clone https://github.com/en44no/ecommerce-google-sheets.git
+>  git clone https://github.com/en44no/ecommerce-google-spreadsheets.git
 >```
 >
 >Go to the project directory
