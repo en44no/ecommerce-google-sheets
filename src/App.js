@@ -4,6 +4,7 @@ import Products from './components/Products/Products';
 
 const App = function () {
   const [products, setProducts] = useState([]);
+  const [filterText, setFilterText] = useState('');
 
   const getData = async () => {
     try {
@@ -17,6 +18,10 @@ const App = function () {
     }
   };
 
+  const searchProduct = (productName) => {
+    setFilterText(productName);
+  };
+
   useEffect(() => {
     getData();
   }, []);
@@ -24,7 +29,7 @@ const App = function () {
   return (
     <div className="container mx-auto">
       <NavBar/>
-      <Products products={products} />
+      <Products products={products} searchProduct={searchProduct} filterText={filterText} />
     </div>
   );
 };
